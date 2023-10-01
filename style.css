@@ -1,2 +1,5 @@
-@import "./cores.css";
-@import "./tipografia.css";
+@import "./global.css";
+@import "./header.css";
+@import "./home.css";
+@import "./sobre.css";
+@import "./formacao.css";

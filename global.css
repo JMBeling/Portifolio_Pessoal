@@ -1,0 +1,27 @@
+body {
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 200%;
+  display: block;
+}

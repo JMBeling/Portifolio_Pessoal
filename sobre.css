@@ -1,0 +1,53 @@
+.sobre {
+  background-color: #ededed;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.sobre img {
+  margin-left: 12rem;
+  margin-top: 4rem;
+}
+
+.sobre h2 {
+  font: 300 2rem/1 "Fira Code", sans-serif;
+  color: #595959;
+  margin-top: 6rem;
+}
+
+.sobre h1 {
+  font: 700 3rem/1 "Fira Code", sans-serif;
+  color: #2e7eff;
+}
+
+.sobre h3 {
+  font: 400 1.5rem/1 "Roboto", sans-serif;
+  color: #595959;
+}
+
+.sobre p {
+  font: 400 1.125rem/1 "Roboto", sans-serif;
+  color: #111;
+  margin-top: 2rem;
+  margin-right: 12rem;
+}
+
+.sobre h4 {
+  font: 300 1.125rem/1 "Fira Code", sans-serif;
+  color: #595959;
+}
+
+.sobre h5 {
+  font: 700 1.125rem/1 "Fira Code", sans-serif;
+  color: #111;
+  padding: 16px 32px;
+  display: inline-block;
+  background: #66a1ff;
+  box-shadow: 0 1px 2px #111;
+  border-radius: 4px;
+  margin: 8px;
+}
