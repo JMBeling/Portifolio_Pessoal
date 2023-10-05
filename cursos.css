@@ -1,0 +1,55 @@
+/*BACKGROUND*/
+.cursos {
+  background-color: #000;
+  box-shadow: inset 0 -60px #ededed;
+  max-width: 1600px;
+  padding: 0.5rem 12rem 120px;
+}
+
+.cursos h1 {
+  font: 500 2.5rem/1 "Fira Code", sans-serif;
+  color: #0952c8;
+  text-align: end;
+  padding: 20px;
+}
+
+/*CURSOS INTENSIVOS*/
+.curso-coluna {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.curso-coluna div {
+  padding: 16px 16px;
+  background: #9c9c9c;
+  box-shadow: 0 1px 2px #cccccc;
+  border-radius: 5px;
+}
+
+.curso-coluna h3 {
+  font: 400 1.5rem/1 "Roboto", sans-serif;
+  color: #000000;
+}
+
+.curso-coluna h4 {
+  font: 700 1rem/1 "Fira Code", sans-serif;
+  color: #595959;
+  margin-top: 0.5rem;
+}
+
+.curso-coluna h2 {
+  font: 600 1.25rem/1 "Roboto", sans-serif;
+  color: #717171;
+  margin-top: 1rem;
+  text-align: end;
+}
+
+.curso-coluna a {
+  padding: 8px 8px;
+  font: 700 1.5rem/1 "Roboto", sans-serif;
+  color: #0952c8;
+
+  background: #b2b2b2;
+  border-radius: 5px;
+}
