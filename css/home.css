@@ -1,22 +1,19 @@
 .home {
   background-color: #000;
-  box-shadow: inset 0 -60px #ededed;
   max-width: 1600px;
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
+  padding-bottom: 20px;
 }
 
 .code {
-  margin-top: 7.5rem;
-  margin-left: 12rem;
+  margin: 7.5rem 0rem 0rem 12rem;
 }
 
 .home p {
   font: 300 2rem/2.25 "Fira Code", sans-serif;
   color: #717171;
-  margin-top: 2rem;
-  margin-left: 12rem;
+  margin: 2rem 0rem 0rem 12rem;
 }
 
 .home h1 {
@@ -26,12 +23,76 @@
 }
 
 .home h2 {
-  font: 300 1.7rem/2 "Fira Code", sans-serif;
+  font: 300 1.7rem/1.8 "Fira Code", sans-serif;
   color: #b2b2b2;
   margin-left: 12rem;
 }
 
 .foguete {
-  margin-top: -25rem;
-  margin-left: 45rem;
+  margin: -26rem 0rem 0rem 45rem;
+}
+
+@media (max-width: 1200px) {
+  .foguete {
+    width: 400px;
+    height: 400px;
+    margin: -24rem 0rem 0rem 45rem;
+  }
+  .code {
+    margin: 5rem 0rem 0rem 12rem;
+  }
+}
+@media (max-width: 1150px) {
+  .foguete {
+    width: 300px;
+    height: 300px;
+    margin: -24rem 0rem 0rem 45rem;
+  }
+}
+@media (max-width: 800px) {
+  .code {
+    width: 100px;
+    height: 180px;
+    margin: -1rem 0rem 0rem 8rem;
+  }
+  .home p {
+    font-size: 1.5rem;
+    margin: -2rem 0rem 0rem 8rem;
+  }
+  .home h1 {
+    font-size: 1.9rem;
+    margin: -0.5rem 0rem 0rem 8rem;
+  }
+  .home h2 {
+    font-size: 1.1rem;
+    margin: -0.5rem 0rem 0rem 8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .foguete {
+    width: 110px;
+    height: 110px;
+    margin: -14rem 0rem 0rem 18rem;
+  }
+  .home {
+    padding-bottom: 60px;
+  }
+  .code {
+    width: 80px;
+    height: 160px;
+    margin: 3rem 0rem 0rem 2rem;
+  }
+  .home p {
+    font-size: 1.6rem;
+    margin: -2rem 0rem 0rem 2rem;
+  }
+  .home h1 {
+    font-size: 2.1rem;
+    margin: -0.2rem 0rem 0rem 2rem;
+  }
+  .home h2 {
+    font-size: 1.2rem;
+    margin: -0.2rem 0rem 0rem 2rem;
+  }
 }

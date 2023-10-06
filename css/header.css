@@ -2,17 +2,14 @@
   background-color: #2e2e2e;
   max-width: 1600px;
   padding: 8px 0px;
-  margin: 0 auto;
+  gap: 18px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .header-menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 
 .logo {
@@ -22,14 +19,42 @@
 
 .header-menu a {
   font: 700 1.125rem/1.5 "Fira Code", sans-serif;
-  padding: 10px 20px;
-  color: #f7f7f7;
+  padding: 16px 16px;
   display: block;
+  color: #f7f7f7;
 }
 
-.bandeiras {
+.header div {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-right: 40px;
+  gap: 12px;
+  margin-right: 3rem;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    margin-left: 6rem;
+  }
+}
+@media (max-width: 800px) {
+  .logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 4rem;
+  }
+  .header-menu a {
+    font-size: 1rem;
+    padding: 8px 8px;
+  }
+  .header div {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .header-menu {
+    display: none;
+  }
+  .header div {
+    margin-left: 6rem;
+    gap: 20px;
+  }
 }
