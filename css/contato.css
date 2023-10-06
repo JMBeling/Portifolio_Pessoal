@@ -1,0 +1,53 @@
+/*BACKGROUND*/
+.contato {
+  background-color: #000;
+  max-width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*CONTEUDO*/
+.contato h1 {
+  font: 500 2rem/1 "Fira Code", sans-serif;
+  color: #2e7eff;
+  padding: 12px;
+  margin-left: 12rem;
+}
+
+.contato h2 {
+  font: 400 1.8rem/1 "Roboto", sans-serif;
+  color: #9c9c9c;
+  margin-left: 12rem;
+  padding: 20px;
+}
+
+.redes {
+  display: flex;
+  gap: 12px;
+  margin-left: 12rem;
+  padding: 20px;
+}
+
+.contato h3 {
+  font: 300 1.125rem/1.125 "Fira Code", sans-serif;
+  color: #9c9c9c;
+  margin: -8rem 10rem 0rem 6rem;
+}
+.contato strong {
+  font-size: 1.5rem;
+  color: #2e7eff;
+}
+.contato h4 {
+  font: 400 1.12rem/1 "Roboto", sans-serif;
+  color: #9c9c9c;
+  text-align: end;
+  margin: -6rem 10rem;
+}
+
+.contato h5 {
+  font: 400 0.8rem/1 "Roboto", sans-serif;
+  color: #9c9c9c;
+  margin: 5rem 0rem 0rem 12rem;
+}

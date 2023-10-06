@@ -1,6 +1,8 @@
-@import "./global.css";
-@import "./header.css";
-@import "./home.css";
-@import "./sobre.css";
-@import "./formacao.css";
-@import "./cursos.css";
+@import "./css/global.css";
+@import "./css/header.css";
+@import "./css/home.css";
+@import "./css/sobre.css";
+@import "./css/formacao.css";
+@import "./css/cursos.css";
+@import "./css/projeto.css";
+@import "./css/contato.css";

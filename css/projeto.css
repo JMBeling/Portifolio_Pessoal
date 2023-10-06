@@ -1,0 +1,50 @@
+/*BACKGROUND*/
+.projeto {
+  background-color: #ededed;
+  max-width: 1600px;
+  padding-bottom: 50px;
+}
+
+.projeto h1 {
+  font: 700 3rem/1 "Fira Code", sans-serif;
+  color: #0952c8;
+  text-align: center;
+}
+
+/*PROJETOS*/
+.projetos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 16px 20px;
+  background: #9c9c9c;
+  border-radius: 4px;
+  margin: 60px;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.projetos h2 {
+  font: 500 2rem/1 "Fira Code", sans-serif;
+  color: #000000;
+  margin: 12px;
+}
+
+.projetos h3 {
+  font: 400 1.125rem/1 "Roboto", sans-serif;
+  color: #000000;
+  margin: 1px 12px;
+}
+
+.projetos img {
+  margin: -80px 0px 0px 40px;
+}
+
+.projetos a {
+  font: 700 1.125rem/1 "Fira Code", sans-serif;
+  color: #000000;
+  padding: 8px 8px;
+  background: #66a1ff;
+  box-shadow: 0 1px 2px #2e7eff;
+  border-radius: 5px;
+  margin: 0px 16px 0px 280px;
+}
