@@ -3,14 +3,13 @@
   max-width: 1600px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 20px;
   align-items: center;
   padding-bottom: 80px;
 }
 
 .sobre img {
-  margin-left: 12rem;
-  margin-top: 4rem;
+  margin: 4rem 0rem 0rem 12rem;
 }
 
 .sobre h2 {
@@ -32,8 +31,7 @@
 .sobre p {
   font: 400 1.125rem/1 "Roboto", sans-serif;
   color: #111;
-  margin-top: 2rem;
-  margin-right: 12rem;
+  margin: 2rem 12rem 0rem 0rem;
 }
 
 .sobre h4 {
@@ -50,4 +48,88 @@
   box-shadow: 0 1px 2px #111;
   border-radius: 4px;
   margin: 8px;
+}
+
+@media (max-width: 1200px) {
+  .sobre {
+    gap: 60px;
+  }
+}
+@media (max-width: 1150px) {
+  .sobre img {
+    width: 300px;
+    height: 300px;
+    margin: -4rem 0rem 0rem 8rem;
+  }
+  .sobre h4 {
+    margin: 12px;
+  }
+  .sobre h5 {
+    font-size: 1rem;
+    padding: 8px 20px;
+    margin-top: 0.5rem;
+  }
+}
+@media (max-width: 950px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre img {
+    display: none;
+    padding-bottom: 0px;
+  }
+  .sobre h1 {
+    font-size: 2rem;
+    margin-left: 8rem;
+  }
+  .sobre h2 {
+    font-size: 1.5rem;
+    margin: 4rem 0rem 0rem 8rem;
+  }
+  .sobre h3 {
+    font-size: 1rem;
+    margin-left: 8rem;
+  }
+
+  .sobre p {
+    font-size: 1rem;
+    margin: 0rem 30rem 0rem 8rem;
+  }
+  .sobre h4 {
+    font-size: 0.8rem;
+    margin: -12rem 0rem 0rem 30rem;
+  }
+  .sobre h5 {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    margin: 1rem 0rem 0rem 32rem;
+  }
+}
+@media (max-width: 680px) {
+  .sobre h1 {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+  }
+  .sobre h2 {
+    font-size: 1.2rem;
+    margin: 3rem 0rem 0rem 2rem;
+  }
+  .sobre h3 {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+
+  .sobre p {
+    font-size: 1.125rem;
+    margin: 0.8rem 2rem 0rem 2rem;
+  }
+  .sobre h4 {
+    font-size: 1.1rem;
+    margin: 1rem 0rem 0rem 2rem;
+  }
+  .sobre h5 {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+    margin: 1rem 0rem 0rem 2rem;
+  }
 }

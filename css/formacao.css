@@ -9,13 +9,11 @@
 .formacao h1 {
   font: 700 3rem/1 "Fira Code", sans-serif;
   color: #0952c8;
-  margin-top: 4rem;
-  margin-left: 12rem;
+  margin: 4rem 0rem 0rem 12rem;
 }
 
 .chapeu {
-  margin-top: -35rem;
-  margin-left: 55rem;
+  margin: -35rem 0rem 0rem 55rem;
 }
 
 /*FORMAÇÃO ACADÊMICA*/
@@ -31,15 +29,13 @@
 .faculdade h3 {
   font: 400 1.5rem/1 "Roboto", sans-serif;
   color: #000000;
-  margin-left: 11rem;
-  margin-top: -8rem;
+  margin: -8rem 0rem 0rem 11rem;
 }
 
 .faculdade h5 {
   font: 700 1rem/1 "Fira Code", sans-serif;
   color: #595959;
-  margin-left: 11rem;
-  margin-top: 1rem;
+  margin: 1rem 0rem 0rem 11rem;
 }
 
 .faculdade h4 {
@@ -80,6 +76,111 @@
 .idiomas h4 {
   font: 700 0.75rem/1 "Fira Code", sans-serif;
   color: #595959;
-  margin-left: 12px;
-  margin-top: -25px;
+  margin: -25px 0rem 0rem 12px;
+}
+
+@media (max-width: 1200px) {
+  .chapeu {
+    width: 200px;
+    height: 145px;
+  }
+}
+@media (max-width: 1150px) {
+  .formacao h1 {
+    font-size: 2.8;
+  }
+  .chapeu {
+    margin: -30rem 0rem 0rem 45rem;
+  }
+  /*FACULDADE*/
+  .faculdade {
+    margin: 2rem 35rem 0rem 8rem;
+  }
+  .faculdade h4 {
+    margin-top: 2rem;
+  }
+  /*IDIOMAS*/
+  .idiomas {
+    margin-left: 40rem;
+    margin-right: 20rem;
+  }
+  .idiomas h2 {
+    font: 600 1.5rem/1 "Roboto", sans-serif;
+    color: #595959;
+    margin: 12px;
+  }
+  .idiomas h3 {
+    font: 400 1.5rem/1 "Roboto", sans-serif;
+    color: #000000;
+    margin: 30px 12px;
+  }
+  .idiomas h4 {
+    font: 700 0.75rem/1 "Fira Code", sans-serif;
+    color: #595959;
+    margin: -25px 0rem 0rem 12px;
+  }
+}
+@media (max-width: 950px) {
+  .formacao h1 {
+    font-size: 2rem;
+    margin-left: 8rem;
+  }
+  .chapeu {
+    margin: -33rem 0rem 0rem 30rem;
+  }
+  /*FACULDADE*/
+  .formacao img {
+    width: 80px;
+    height: 80px;
+  }
+  .faculdade {
+    margin: 2rem 45em 0rem 8rem;
+  }
+  .faculdade h3 {
+    font-size: 1rem;
+    margin: -4.8rem 2rem 0rem 6rem;
+  }
+  .faculdade h5 {
+    font-size: 0.7rem;
+    margin: 0.2rem 0rem 0rem 6rem;
+  }
+  .faculdade h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  /*IDIOMAS*/
+  .idiomas {
+    margin: -16rem 30rem 10rem 30rem;
+  }
+  .idiomas h2 {
+    font-size: 1.2rem;
+  }
+  .idiomas h3 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 680px) {
+  .formacao h1 {
+    font-size: 1.7rem;
+    margin-left: 2rem;
+  }
+  .chapeu {
+    margin: -40rem 0rem 0rem 20rem;
+  }
+  /*FACULDADE*/
+  .faculdade {
+    margin: 2rem 12em 0rem 2rem;
+  }
+  .faculdade h3 {
+    font-size: 1.2rem;
+  }
+  .faculdade h4 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  /*IDIOMAS*/
+  .idiomas {
+    margin: 2rem 30rem 0rem 2rem;
+  }
 }

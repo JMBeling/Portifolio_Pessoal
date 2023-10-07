@@ -46,10 +46,15 @@
   .foguete {
     width: 300px;
     height: 300px;
-    margin: -24rem 0rem 0rem 45rem;
+    margin: -24rem 0rem 0rem 40rem;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 950px) {
+  .foguete {
+    width: 200px;
+    height: 200px;
+    margin: -14rem 0rem 0rem 30rem;
+  }
   .code {
     width: 100px;
     height: 180px;
@@ -68,8 +73,7 @@
     margin: -0.5rem 0rem 0rem 8rem;
   }
 }
-
-@media (max-width: 500px) {
+@media (max-width: 680px) {
   .foguete {
     width: 110px;
     height: 110px;
