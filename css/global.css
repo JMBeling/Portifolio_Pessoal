@@ -1,8 +1,9 @@
+/*FONTE PADRÃO*/
 body {
   font-family: "Fira Code", Arial, Helvetica, sans-serif;
   margin: 0px;
 }
-
+/*ELIMINAR OS PADRÕES*/
 h1,
 h2,
 h3,

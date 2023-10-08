@@ -1,3 +1,4 @@
+/*BACKGROUND*/
 .sobre {
   background-color: #ededed;
   max-width: 1600px;
@@ -7,12 +8,12 @@
   align-items: center;
   padding-bottom: 80px;
 }
-
+/*CONTEUDO*/
 .sobre img {
   width: 400px;
   margin: 4rem 0rem 0rem 12rem;
 }
-
+/*TEXTO*/
 .sobre h1 {
   font: 300 2rem/1 "Fira Code", sans-serif;
   color: #595959;
@@ -50,12 +51,13 @@
   border-radius: 4px;
   margin: 8px;
 }
-
+/*OTIMIZAÇÃO     1200PX */
 @media (max-width: 1200px) {
   .sobre {
     gap: 60px;
   }
 }
+/*OTIMIZAÇÃO     1150PX */
 @media (max-width: 1150px) {
   .sobre img {
     width: 300px;
@@ -71,6 +73,7 @@
     margin-top: 0.5rem;
   }
 }
+/*OTIMIZAÇÃO     950PX */
 @media (max-width: 950px) {
   .sobre {
     grid-template-columns: 1fr;
@@ -91,7 +94,6 @@
     font-size: 1rem;
     margin-left: 8rem;
   }
-
   .sobre p {
     font-size: 1rem;
     margin: 0rem 27rem 0rem 8rem;
@@ -106,6 +108,7 @@
     margin: 1rem 2rem 0rem 32rem;
   }
 }
+/*OTIMIZAÇÃO     680PX */
 @media (max-width: 680px) {
   .sobre h2 {
     font-size: 1.8rem;
@@ -119,7 +122,6 @@
     font-size: 1rem;
     margin-left: 2rem;
   }
-
   .sobre p {
     font-size: 1.125rem;
     margin: 0.8rem 2rem 0rem 2rem;

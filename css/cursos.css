@@ -4,14 +4,13 @@
   max-width: 1600px;
   padding: 0.5rem 12rem 120px;
 }
-
+/*CONTEUDO*/
 .cursos h1 {
   font: 500 2.5rem/1 "Fira Code", sans-serif;
   color: #0952c8;
   text-align: end;
   padding: 30px;
 }
-
 /*CURSOS INTENSIVOS*/
 .curso-coluna {
   display: grid;

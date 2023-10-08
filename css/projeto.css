@@ -5,13 +5,12 @@
   padding-bottom: 50px;
   padding-top: 60px;
 }
-
+/*CONTEUDO*/
 .projeto h1 {
   font: 700 3rem/1 "Fira Code", sans-serif;
   color: #0952c8;
   text-align: center;
 }
-
 /*PROJETOS*/
 .projetos {
   display: grid;

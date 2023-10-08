@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr;
 }
-
+/*CONTEUDO*/
 .formacao h1 {
   font: 700 3rem/1 "Fira Code", sans-serif;
   color: #0952c8;
@@ -79,7 +79,7 @@
   color: #2e2e2e;
   margin: -25px 0rem 0rem 12px;
 }
-/*OTIMIZAÇÃO 1200PX*/
+/*OTIMIZAÇÃO    1200PX*/
 @media (max-width: 1200px) {
   .chapeu {
     width: 200px;
@@ -90,7 +90,7 @@
     margin-right: 20rem;
   }
 }
-/*OTIMIZAÇÃO 1150PX*/
+/*OTIMIZAÇÃO    1150PX*/
 @media (max-width: 1150px) {
   .formacao h1 {
     font-size: 2.8;
@@ -109,7 +109,7 @@
     margin-right: 20rem;
   }
 }
-/*OTIMIZAÇÃO 950PX*/
+/*OTIMIZAÇÃO    950PX*/
 @media (max-width: 950px) {
   .formacao h1 {
     font-size: 2rem;
@@ -146,7 +146,7 @@
     margin-top: 1rem;
   }
 }
-/*OTIMIZAÇÃO 680PX*/
+/*OTIMIZAÇÃO    680PX*/
 @media (max-width: 680px) {
   .formacao h1 {
     font-size: 1.7rem;

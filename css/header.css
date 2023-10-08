@@ -1,3 +1,4 @@
+/*BACKGROUND*/
 .header {
   background-color: #2e2e2e;
   max-width: 1600px;
@@ -7,14 +8,15 @@
   align-items: center;
 }
 
-.header-menu {
-  display: flex;
-  gap: 20px;
-}
-
 .logo {
   display: flex;
   margin-left: 12rem;
+}
+
+/*CONTEUDO*/
+.header-menu {
+  display: flex;
+  gap: 20px;
 }
 
 .header-menu a {
@@ -27,7 +29,6 @@
 .header div {
   display: flex;
   gap: 16px;
-  align-items: right;
   margin-right: 3rem;
 }
 /*OTIMIZAÇÃO 1500PX */

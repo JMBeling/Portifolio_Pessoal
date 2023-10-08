@@ -7,7 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 /*CONTEUDO*/
 .contato h1 {
   font: 500 2rem/1 "Fira Code", sans-serif;
