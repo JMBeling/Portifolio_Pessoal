@@ -1,7 +1,6 @@
 /*BACKGROUND*/
 .cursos {
   background-color: #000;
-  box-shadow: inset 0 -60px #ededed;
   max-width: 1600px;
   padding: 0.5rem 12rem 120px;
 }
@@ -10,7 +9,7 @@
   font: 500 2.5rem/1 "Fira Code", sans-serif;
   color: #0952c8;
   text-align: end;
-  padding: 20px;
+  padding: 30px;
 }
 
 /*CURSOS INTENSIVOS*/
@@ -18,6 +17,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 24px;
+}
+
+.curso-coluna img {
+  align-items: center;
 }
 
 .curso-coluna div {
@@ -37,7 +40,7 @@
   color: #2e2e2e;
   margin-top: 0.5rem;
 }
-
+/*CERTIFICADO*/
 .curso-coluna h4 {
   font: 600 1.25rem/1 "Roboto", sans-serif;
   color: #2e2e2e;
@@ -49,16 +52,45 @@
   padding: 8px 8px;
   font: 700 1.5rem/1 "Roboto", sans-serif;
   color: #0952c8;
-
   background: #b2b2b2;
   border-radius: 5px;
 }
-
+/*OTIMIZAÇÃO     1200PX */
 @media (max-width: 1200px) {
+  .cursos {
+    padding: 2rem 2rem 6rem 12rem;
+  }
 }
+/*OTIMIZAÇÃO     1150PX */
 @media (max-width: 1150px) {
+  .cursos {
+    padding: 2rem 2rem 0rem 8rem;
+  }
+  .curso-coluna {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+  }
+  .curso-coluna div {
+    margin: 0rem 4rem 6rem 0rem;
+    margin-right: 5rem;
+  }
 }
+/*OTIMIZAÇÃO     950PX */
 @media (max-width: 950px) {
+  .curso-coluna {
+    grid-template-columns: 1fr 1fr;
+  }
+  .curso-coluna div {
+    margin-right: 8rem;
+  }
 }
+/*OTIMIZAÇÃO     680PX */
 @media (max-width: 680px) {
+  .cursos {
+    padding: 2rem 4rem 0rem 2rem;
+  }
+  .curso-coluna div {
+    padding: 8px 8px;
+    margin: 2rem 2rem 6rem 0rem;
+  }
 }
