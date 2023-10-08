@@ -9,16 +9,17 @@
 }
 
 .sobre img {
+  width: 400px;
   margin: 4rem 0rem 0rem 12rem;
 }
 
-.sobre h2 {
+.sobre h1 {
   font: 300 2rem/1 "Fira Code", sans-serif;
   color: #595959;
   margin-top: 2rem;
 }
 
-.sobre h1 {
+.sobre h2 {
   font: 700 3rem/1 "Fira Code", sans-serif;
   color: #2e7eff;
 }
@@ -78,11 +79,11 @@
     display: none;
     padding-bottom: 0px;
   }
-  .sobre h1 {
+  .sobre h2 {
     font-size: 2rem;
     margin-left: 8rem;
   }
-  .sobre h2 {
+  .sobre h1 {
     font-size: 1.5rem;
     margin: 4rem 0rem 0rem 8rem;
   }
@@ -106,11 +107,11 @@
   }
 }
 @media (max-width: 680px) {
-  .sobre h1 {
+  .sobre h2 {
     font-size: 1.8rem;
     margin-left: 2rem;
   }
-  .sobre h2 {
+  .sobre h1 {
     font-size: 1.2rem;
     margin: 3rem 0rem 0rem 2rem;
   }

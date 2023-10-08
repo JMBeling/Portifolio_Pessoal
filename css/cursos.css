@@ -27,20 +27,20 @@
   border-radius: 5px;
 }
 
-.curso-coluna h3 {
+.curso-coluna h2 {
   font: 400 1.5rem/1 "Roboto", sans-serif;
   color: #000000;
 }
 
-.curso-coluna h4 {
+.curso-coluna h3 {
   font: 700 1rem/1 "Fira Code", sans-serif;
-  color: #595959;
+  color: #2e2e2e;
   margin-top: 0.5rem;
 }
 
-.curso-coluna h2 {
+.curso-coluna h4 {
   font: 600 1.25rem/1 "Roboto", sans-serif;
-  color: #717171;
+  color: #2e2e2e;
   margin-top: 1rem;
   text-align: end;
 }
