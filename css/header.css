@@ -27,9 +27,10 @@
 .header div {
   display: flex;
   gap: 16px;
+  align-items: right;
   margin-right: 3rem;
 }
-
+/*OTIMIZAÇÃO 1500PX */
 @media (max-width: 1150px) {
   .logo {
     margin-left: 4rem;
@@ -38,24 +39,32 @@
     gap: 10px;
   }
 }
+/*OTIMIZAÇÃO 950PX */
 @media (max-width: 950px) {
   .logo {
     width: 100px;
     height: 40px;
-    margin-left: 2rem;
+    margin-left: 1.2rem;
   }
   .header-menu a {
     font-size: 1rem;
     gap: 8px;
     padding: 6px 6px;
   }
+  .header div {
+    margin-left: 0rem;
+  }
+  .header ul {
+    gap: 2px;
+  }
 }
+/*OTIMIZAÇÃO 680PX */
 @media (max-width: 680px) {
   .header-menu {
     display: none;
   }
   .header div {
-    margin-left: 10rem;
+    margin-left: 8rem;
     gap: 20px;
   }
 }

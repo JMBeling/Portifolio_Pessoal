@@ -43,11 +43,45 @@
   font: 400 1.12rem/1 "Roboto", sans-serif;
   color: #9c9c9c;
   text-align: end;
-  margin: -6rem 10rem;
+  margin: -4rem 10rem;
 }
 
 .contato h5 {
   font: 400 0.8rem/1 "Roboto", sans-serif;
   color: #9c9c9c;
   margin: 5rem 0rem 0rem 12rem;
+}
+
+/*OTIMIZAÇÃO     1150PX */
+@media (max-width: 1150px) {
+  .contato h3 {
+    margin: -8rem 4rem 0rem 6rem;
+  }
+  .contato h4 {
+    margin: -0.5rem 4rem 0rem 10rem;
+  }
+}
+/*OTIMIZAÇÃO     950PX */
+@media (max-width: 950px) {
+  .contato h1 {
+    margin-left: 2rem;
+  }
+  .contato h2 {
+    margin-left: 2rem;
+  }
+  .contato div {
+    margin-left: 2rem;
+  }
+  .contato h5 {
+    margin: 5rem 0rem 0rem 2rem;
+  }
+}
+/*OTIMIZAÇÃO     680PX */
+@media (max-width: 680px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+  .contato h3 {
+    margin: 2rem 5rem 0rem 6rem;
+  }
 }

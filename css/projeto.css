@@ -3,6 +3,7 @@
   background-color: #ededed;
   max-width: 1600px;
   padding-bottom: 50px;
+  padding-top: 60px;
 }
 
 .projeto h1 {
@@ -44,9 +45,45 @@
 .projetos a {
   font: 700 1.125rem/1 "Fira Code", sans-serif;
   color: #000000;
-  padding: 8px 8px;
+  text-align: center;
+  padding: 16px 20px;
   background: #66a1ff;
   box-shadow: 0 1px 2px #2e7eff;
   border-radius: 5px;
-  margin: 0px 16px 0px 280px;
+  margin: 0px 16px 0px 260px;
+}
+
+/*OTIMIZAÇÃO     1150PX */
+@media (max-width: 1150px) {
+  .projetos {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+/*OTIMIZAÇÃO     950PX */
+@media (max-width: 950px) {
+  .projetos {
+    grid-template-columns: 1fr;
+  }
+  .projetos img {
+    margin: 1rem 0px 0px 2rem;
+  }
+  .projetos h2 {
+    font-size: 1.8rem;
+  }
+}
+/*OTIMIZAÇÃO     680PX */
+@media (max-width: 680px) {
+  .projetos img {
+    margin: 1.2rem 0rem 0rem 1.5rem;
+    width: 300px;
+    height: 150px;
+  }
+  .projetos a {
+    margin: 0px 20px 0px 8rem;
+  }
+  .projetos {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
