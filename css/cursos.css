@@ -2,6 +2,7 @@
 .cursos {
   background-color: #000;
   max-width: 1600px;
+  width: auto;
   padding: 0.5rem 12rem 120px;
 }
 /*CONTEUDO*/
@@ -91,5 +92,18 @@
   .curso-coluna div {
     padding: 8px 8px;
     margin: 2rem 2rem 6rem 0rem;
+  }
+}
+
+/*OTIMIZAÇÃO     440PX */
+@media (max-width: 440px) {
+  .cursos h1 {
+    font-size: 1.4rem;
+  }
+  .curso-coluna {
+    grid-template-columns: 1fr;
+  }
+  .curso-coluna div {
+    margin: 2rem 1rem 1rem 0rem;
   }
 }

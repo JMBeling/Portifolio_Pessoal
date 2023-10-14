@@ -2,6 +2,7 @@
 .sobre {
   background-color: #ededed;
   max-width: 1600px;
+  width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -75,41 +76,42 @@
 }
 /*OTIMIZAÇÃO     950PX */
 @media (max-width: 950px) {
-  .sobre {
-    grid-template-columns: 1fr;
-  }
   .sobre img {
     display: none;
-    padding-bottom: 0px;
   }
   .sobre h2 {
     font-size: 2rem;
     margin-left: 8rem;
+    margin-right: auto;
   }
   .sobre h1 {
     font-size: 1.5rem;
-    margin: 4rem 0rem 0rem 8rem;
+    margin: 4rem auto 0rem 8rem;
   }
   .sobre h3 {
     font-size: 1rem;
     margin-left: 8rem;
+    margin-right: auto;
   }
   .sobre p {
     font-size: 1rem;
-    margin: 0rem 27rem 0rem 8rem;
+    margin: 0rem 18rem 0rem 8rem;
   }
   .sobre h4 {
     font-size: 0.8rem;
-    margin: -12rem 0rem 0rem 32rem;
+    margin: -12rem 6rem 0rem 32rem;
   }
   .sobre h5 {
     font-size: 0.9rem;
     padding: 8px 20px;
-    margin: 1rem 2rem 0rem 32rem;
+    margin: 1rem 6rem 0rem 32rem;
   }
 }
 /*OTIMIZAÇÃO     680PX */
 @media (max-width: 680px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
   .sobre h2 {
     font-size: 1.8rem;
     margin-left: 2rem;

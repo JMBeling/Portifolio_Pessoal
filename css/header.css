@@ -2,15 +2,16 @@
 .header {
   background-color: #2e2e2e;
   max-width: 1600px;
+  width: auto;
   padding: 8px 0px;
-  gap: 80px;
+  gap: 30px;
   display: flex;
   align-items: center;
 }
 
 .logo {
-  display: flex;
   margin-left: 12rem;
+  margin-right: auto;
 }
 
 /*CONTEUDO*/
@@ -29,6 +30,7 @@
 .header div {
   display: flex;
   gap: 40px;
+  margin-left: auto;
   margin-right: 3rem;
 }
 /*OTIMIZAÇÃO 1500PX */
@@ -52,9 +54,6 @@
     gap: 8px;
     padding: 6px 6px;
   }
-  .header div {
-    margin-left: 0rem;
-  }
   .header ul {
     gap: 2px;
   }
@@ -65,7 +64,7 @@
     display: none;
   }
   .header div {
-    margin-left: 8rem;
+    margin-left: auto;
     gap: 20px;
   }
 }

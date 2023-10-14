@@ -2,6 +2,7 @@
 .projeto {
   background-color: #ededed;
   max-width: 1600px;
+  width: auto;
   padding-bottom: 50px;
   padding-top: 60px;
 }
@@ -84,5 +85,28 @@
   .projetos {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+}
+
+/*OTIMIZAÇÃO     450PX */
+@media (max-width: 450px) {
+  .projeto h1 {
+    font-size: 1.8rem;
+  }
+  .projetos {
+    margin: 2rem;
+  }
+  .projetos img {
+    display: none;
+  }
+  .projetos h2 {
+    font-size: 1.5rem;
+  }
+  .projetos h3 {
+    font-size: 1rem;
+    margin: 0rem;
+  }
+  .projetos a {
+    margin: 0rem;
   }
 }

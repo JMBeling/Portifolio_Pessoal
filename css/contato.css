@@ -2,6 +2,7 @@
 .contato {
   background-color: #000;
   max-width: 1600px;
+  width: auto;
   padding-top: 60px;
   padding-bottom: 40px;
   display: grid;
@@ -82,5 +83,25 @@
   }
   .contato h3 {
     margin: 2rem 5rem 0rem 6rem;
+  }
+}
+/*OTIMIZAÇÃO     370PX */
+@media (max-width: 370px) {
+  .contato h1 {
+    margin: 0rem;
+    text-align: center;
+  }
+  .contato h2 {
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 8px;
+    text-align: center;
+  }
+  .redes {
+    margin-left: 0rem;
+    padding: 8px;
+  }
+  .contato h5 {
+    margin: 5rem 0rem 0rem 2rem;
   }
 }

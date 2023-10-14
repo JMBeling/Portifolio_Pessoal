@@ -2,6 +2,7 @@
 .home {
   background-color: #000;
   max-width: 1600px;
+  width: auto;
   display: grid;
   grid-template-columns: 1fr;
   padding-bottom: 20px;
@@ -83,7 +84,8 @@
   .foguete {
     width: 110px;
     height: 110px;
-    margin: -14rem 0rem 0rem 18rem;
+    margin-left: 9rem;
+    margin-top: -18rem;
   }
   .home {
     padding-bottom: 60px;
