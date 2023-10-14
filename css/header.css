@@ -3,7 +3,7 @@
   background-color: #2e2e2e;
   max-width: 1600px;
   padding: 8px 0px;
-  gap: 18px;
+  gap: 80px;
   display: flex;
   align-items: center;
 }
@@ -28,7 +28,7 @@
 
 .header div {
   display: flex;
-  gap: 16px;
+  gap: 40px;
   margin-right: 3rem;
 }
 /*OTIMIZAÇÃO 1500PX */

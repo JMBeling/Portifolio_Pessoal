@@ -53,6 +53,7 @@
   color: #0952c8;
   background: #b2b2b2;
   border-radius: 5px;
+  align-items: end;
 }
 /*OTIMIZAÇÃO     1200PX */
 @media (max-width: 1200px) {
